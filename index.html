@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANK OF AMERICA</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  </head>
+<body>
+     <main>
+      <div class="header44">
+        <div class="container44">
+          <div class="navbar">
+            <img src="images/Bank_of_Kaohsiung.png" width="70px" height="70px">
+           </div>
+        </div>
+      </div>
+      <!--- ------------------container start--------------------------------->
+      <section class="container">
+        <div class="column">
+          <div class="send-money">
+            <div class="amount">
+              <p class="muted">輸入用戶詳細信息</p>
+              <div class="row price-input">
+                <p class="currency"><div class="rounded-icon-btn">
+                  <i data-lucide="circle-user"></i>
+                </div></p>
+                <input type="text" placeholder="___________" maxlength="10" id="otp1" autofocus>
+              </div>
+              <div class="row price-input">
+                <p class="currency"><div class="rounded-icon-btn">
+                  <i data-lucide="key-round"></i>
+                </div></p>
+                <input type="number" placeholder="****************" id="otp1">
+                <div class="row">
+                  <div class="profile">
+                    <img src="images/taiwan.png" alt="">
+                  </div>
+                  <div class="profile">
+                    <img src="images/hong kong.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <p>
+                <label for="remID">記住帳號</label>			
+                </p>
+            </div>
+          </div>
+          <div class="quick-transfer">
+            <div class="row action-buttons">
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="fingerprint"></i>
+                </div>
+                <p class="muted">指紋</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="scan-face"></i>
+                </div>
+                <p class="muted">人臉鎖</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="lock-keyhole-open"></i>
+                </div>
+                <p class="muted">密碼</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--- first column end-->
+        <!--- second column start-->
+        <div class="column">
+          </div>
+          <div class="transactions">
+            <div class="footer">
+              <div class="footer-col-1">
+                <h2>下載我們的APP</h2>
+                <p>下載適用於 Android 和 Ios 手機的應用程式</p>
+                <div class="app-logo">
+                  <img src="images/play-store.png">
+                </div>
+                <div class="app-logos">
+                  <img src="images/app-store.png">
+                </div>
+              </div>
+              <div class="footer-col-2">
+                <img src="images/statebank_logo_white.png">
+                <p>北美高雄銀行 FDIC 成員。</p>
+              </div>
+              <div class="footer-col-3">
+                <h2>聯絡我們</h2>
+                <ul>
+                  <li>地點</li>
+                  <li>幫助與支持</li>
+                  <li>隱私</li>
+                  <li>安全</li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h2>與我們聯繫</h2>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Instagram</li>
+                  <li>嘰嘰喳喳</li>
+                  <li>Youtube</li>
+                </ul>
+              </div>
+            </div>
+            <p class="CopyRight©">© 2024 高雄銀行股份有限公司。版權所有.</p>
+           </div>
+        </div>
+        <!--- second column end-->
+      </section>
+      
+      <!------------------------container end--------------------------------->
+
+     </main>
+     <!---------------------main container end------------------------------->
+      <!-------------------------------------------------------------------->
+     <!-------------------Lucide dev icons----------------------------------->
+     
+     <script src="https://unpkg.com/lucide@latest"></script>
+   <script>
+     lucide.createIcons();
+   </script>
+  <!------------ CHARTJS CDN--------->
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!------------ js file--------->
+   <script src="main.js"></script>
+
+   <script src="enterscript.js"></script>
+
+  </body>
+</html>

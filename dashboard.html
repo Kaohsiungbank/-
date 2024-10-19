@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄銀行.</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="toggle-sidebar">
+     <aside>
+      <div class="header44">
+        <div class="container44">
+          <div class="navbar">
+            <img src="images/Bank_of_Kaohsiung.png" width="70px" height="70px">
+           </div>
+        </div>
+      </div>
+        <div class="tabs">
+          <div class="tab active">
+            <a href="#" class="item">
+              <i data-lucide="layout-dashboard"></i>
+              <h3>儀表板</h3>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="#" class="item">
+              <i data-lucide="message-circle"></i>
+              <h3>留言</h3>
+              <div class="count">9+</div>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="#" class="item">
+              <i data-lucide="scroll-text"></i>
+              <h3>發票</h3>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="#" class="item">
+              <i data-lucide="wallet"></i>
+              <h3>錢包</h3>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="#" class="item">
+              <i data-lucide="chart-column-big"></i>
+              <h3>分析</h3>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="#" class="item">
+              <i data-lucide="monitor-dot"></i>
+              <h3>我的活動</h3>
+            </a>
+          </div>
+          <div class="tab">
+            <a href="index.html" class="item">
+              <i data-lucide="log-out"></i>
+              <h3>註銷</h3>
+            </a>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="item-tabs">
+            <div class="item-tab">
+              <i data-lucide="hand-helping"></i>
+              <h3>尋求協助</h3>
+            </div>
+            <div class="item-tab" id="theme-switch">
+              <i data-lucide="sun-moon"></i>
+              <h3>主題</h3>
+            </div>
+          </div>
+
+          <div class="user">
+            <div class="profile">
+              <img src="images/emma_mcl.png" alt="">
+            </div>
+            <div class="details">
+              <h4 class="name">SHUNICHI SHOJI</h4>
+              <P class="MUTED">使用者</P>
+            </div>
+          </div>
+        </div>
+     </aside>
+     <main>
+      <nav>
+        <div class="header44">
+          <div class="container44">
+            <div class="navbar">
+              <img src="images/Bank_of_Kaohsiung.png" width="70px" height="70px">
+             </div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="SEARCH HISTORY">
+          <div class="icon-wrapper">
+            <i data-lucide="search"></i>
+          </div>
+        </div>
+        <div class="user">
+          <div class="icon-wrapper">
+            <i data-lucide="bell-ring"></i>
+          </div>
+          <div class="profile">
+            <img src="images/emma_mcl.png" alt="">
+          </div>
+          <label for="toggle-sidebar" class="rounded-icon-btn
+          menu-btn">
+            <i data-lucide="logs"></i>
+          </label>
+        </div>
+      </nav>
+      <section class="container">
+        <div class="column">
+          <h2 class="title">歡迎</h2>
+          <div class="visa-card">
+            <div class="visa-card-inner">
+              <div class="front">
+                <img src="images/world.svg" class="map-img" alt="">
+                <div class="row">
+                  <img src="images/chip.png" class="icon" alt="">
+                  <img src="images/visa.png" class="icon" alt="">
+                </div>
+                <div class="row card-no">
+                  <p>5667</p>
+                  <p>3225</p>
+                  <p>1938</p>
+                  <p>8939</p>
+                </div>
+                <div class="row card-holder">
+                  <p>高雄銀行</p>
+                  <p>有效期限至</p>
+                </div>
+                <div class="row name">
+                  <p>SHUNICHI SHOJI</p>
+                  <p>12/27</p>
+                </div>
+              </div>
+              <div class="back">
+                <img src="images/world.svg" class="map-img" alt="">
+                <div class="bar"></div>
+                <div class="row card-cvv">
+                  <div><img src="images/partern.jpg" alt=""></div>
+                  <p>593</p>
+                </div>
+                <div class="row card-text">
+                  <p>
+                    高雄銀行虛擬卡可安全即時支付，讓您輕鬆存取資金，無縫財務管理。
+                  </p>
+                </div>
+                <div class="row signature">
+                  <p>客戶簽名</p>
+                  <img src="images/visa.png" class="icon" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+<!--- ------------------visa card stop---------------------------------> 
+          <div class="send-money">
+            <h2 class="title">匯款</h2>
+            <div class="row balance">
+              <div class="counter-up">
+                <div class="content">
+                  <div>
+                    <h1><div class="counter">9,609,397.80</div></h1>
+                    <P><span class="success">+2.03%</span>(NT$1,137)</P>
+                  </div>
+                </div>
+              </div>
+              <button class="add-fund-btn">
+                <img src="images/mastercard.png" alt="" class="icon">
+                添加資金
+              </button>
+            </div>
+            <div class="amount">
+              <div class="row user"></div>
+              <div class="profile">
+                <img src="images/emma_mcl.png" alt="">
+              </div>
+              <p class="muted">輸入金額</p>
+              <div class="row price-input">
+                <p class="currency">NT$</p>
+                <input type="number" placeholder="0.00">
+                <div class="row">
+                  <div class="profile">
+                    <img src="images/taiwan.png" alt="">
+                  </div>
+                  <div class="profile">
+                    <img src="images/hong kong.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row receiver">
+              <div class="profile">
+                <img src="images/woman.png" alt="">
+              </div>
+              <h3 class="name">李關</h3>
+              <div class="rounded-icon-btn">
+                <i data-lucide="plus"></i>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary send-money-btn" onclick="openpopup1()"> 匯款</button>
+            <div class="popup1" id="popup1">
+              <img src="images/not_successful.png">
+              <h2>您的轉帳是<br> 待辦的!</h2>
+              <p><h2>
+                您需要存入至少新台幣29,000元
+              </h2></p>
+              <button type="btn btn-primary send-money-btn" onclick="closepopup1()">完畢</button>
+            </div>
+          </div>
+          <div class="quick-transfer">
+            <h2 class="title">快速傳輸</h2>
+            <div class="row available-balance">
+              <p class="muted">平衡</p>
+              <div class="counter-up">
+                  <div>
+                    <h1><div class="counter">NT$ 9,609,397.80</div></h1>
+                  </div>
+              </div>
+            </div>
+            <div class="transfer-input">
+              <p class="muted">輸入金額</p>
+              <div class="row">
+                <p class="currency">$</p>
+                <input type="number" placeholder="0.00">
+                <div class="row">
+                  <div class="profile">
+                    <img src="images/taiwan.png" alt="">
+                  </div>
+                  <div class="profile">
+                    <img src="images/hong kong.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row action-buttons">
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="send"></i>
+                </div>
+                <p class="muted">傳送</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="hand-coins"></i>
+                </div>
+                <p class="muted">收到</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="scroll-text"></i>
+                </div>
+                <p class="muted">發票</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="group"></i>
+                </div>
+                <p class="muted">更多的</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--- first column end-->
+        <!--- second column start-->
+        <div class="column">
+          <div class="cash-flow">
+            <div class="cash-flow-header">
+              <h2 class="title">現金週轉</h2>
+              <div class="row round-btns">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="trending-up" class="icon"></i>
+                </div>
+                <div class="rounded-icon-btn">
+                  <i data-lucide="Chart-column-stacked" class="icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row trend-report">
+              <div class="rounded-icon-btn btn-primary">
+                <i data-lucide="trending-up" class="icon"></i>
+              </div>
+              <h3>節省</h3>
+                <i data-lucide="trending-up" class="icon primary"></i>
+                <p class="success">+2.03%</p>
+              </div>
+              <canvas id="myChart" style="width:100%; height: 100%;">
+              </canvas>
+            </div>
+          </div>
+          <div class="statistics-grid">
+            <div class="statistics">
+              <h2 class="title">統計數據</h2>
+              <div class="boxes">
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="git-branch-plus" class="icon danger"></i>
+                  </div>
+                  <div>
+                    <h4>357M</h4>
+                    <p class="muted">用戶信任</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="flag" class="icon primary"></i>
+                  </div>
+                  <div>
+                    <h4>20 個國家</h4>
+                    <p class="muted">全球影響力</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="circle-dollar-sign" class="icon success"></i>
+                  </div>
+                  <div>
+                    <h4>NT$1.3m</h4>
+                    <p class="muted">交易</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="star" class="icon warning"></i>
+                  </div>
+                  <div>
+                    <h4>3.1K</h4>
+                    <p class="muted">評論</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-history">
+              <div class="row contact-history-header">
+                <h2 class="title">聯繫歷史</h2>
+                <div class="row">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="pencil" class="icon"></i>
+                  </div>
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="search" class="icon"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="muted">新增了 25 個新聯絡人</p>
+              <div class="profile-container">
+                <div class="row user">
+                  <div class="profile">
+                    <img src="images/male.png" alt="">
+                  </div>
+                  <div>
+                    <h3>李興</h3>
+                    <p class="muted">NT$2500.93</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="images/woman.png" alt="">
+                  </div>
+                  <div>
+                    <h3>林強</h3>
+                    <p class="muted">NT$4000.90</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="images/male.png" alt="">
+                  </div>
+                  <div>
+                    <h3>週渝民</h3>
+                    <p class="muted">NT$700.05</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="images/male.png" alt="">
+                  </div>
+                  <div>
+                    <h3>孫越</h3>
+                    <p class="muted">NT$120,000.35</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="transactions">
+             <h2 class="title">近期交易</h2>
+             <table>
+              <tbody></tbody>
+             </table>
+           </div>
+        </div>
+        <div class="transactions">
+          <div class="footer">
+            <div class="footer-col-1">
+              <h2>下載我們的APP</h2>
+              <p>下載適用於 Android 和 Ios 手機的應用程式</p>
+              <div class="app-logo">
+                <img src="images/play-store.png">
+              </div>
+              <div class="app-logos">
+                <img src="images/app-store.png">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/statebank_logo_white.png">
+              <p>北美高雄銀行 FDIC 成員。</p>
+            </div>
+            <div class="footer-col-3">
+              <h2>聯絡我們</h2>
+              <ul>
+                <li>地點</li>
+                <li>幫助與支持</li>
+                <li>隱私</li>
+                <li>安全</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h2>與我們聯繫</h2>
+              <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>嘰嘰喳喳</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+          </div>
+          <p class="CopyRight©">© 2024 高雄銀行股份有限公司。版權所有.</p>
+         </div>
+        
+        <!--- second column end-->
+      </section>
+      
+      <!------------------------container end--------------------------------->
+
+     </main>
+     <!---------------------main container end------------------------------->
+      <!-------------------------------------------------------------------->
+     <!-------------------Lucide dev icons----------------------------------->
+     
+     <script src="https://unpkg.com/lucide@latest"></script>
+   <script>
+     lucide.createIcons();
+   </script>
+  <!------------ CHARTJS CDN--------->
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!------------ js file--------->
+   <script src="main.js"></script>
+   <script>
+    let popup1= document.getElementById("popup1");
+    function openpopup1(){
+      popup1.classList.add("open-popup1");
+    }
+    function closepopup1(){
+      popup1.classList.remove("open-popup1");
+    }
+  </script>
+
+   <script>
+    $(document).ready(function(){
+      $('.counter').counterUp({
+        delay: 30,
+        time: 120000
+      });
+    });
+    </script>
+  </body>
+</html>
